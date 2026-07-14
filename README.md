@@ -68,9 +68,9 @@ The assets are reordered so that strongly related assets are placed close togeth
 
 The ordered asset set is recursively divided into two clusters. Capital is allocated between each pair according to inverse cluster variance:
 
-\[
+$$ \
 \alpha = 1-\frac{\sigma_0^2}{\sigma_0^2+\sigma_1^2}
-\]
+\ $$
 
 where \(\sigma_0^2\) and \(\sigma_1^2\) are the inverse-variance portfolio variances of the two clusters.
 
