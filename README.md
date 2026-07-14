@@ -2,12 +2,11 @@
 
 A Python/Jupyter implementation of **Hierarchical Risk Parity (HRP)** with rolling out-of-sample backtesting, transaction-cost modelling, portfolio diagnostics, and comparison against traditional allocation strategies.
 
-The notebook implements the HRP procedure introduced by Marcos López de Prado and compares it with:
+The notebook implements the HRP algorythm portfolio introduced by Marcos López de Prado and compares it with:
 
 - **1/N** equal weighting
 - **Minimum Global Variance (MGV)**
 - **Maximum Sharpe**
-- **Hierarchical Risk Parity (HRP)**
 
 It also produces visual diagnostics for asset clustering, portfolio composition, performance, and trading costs.
 
@@ -23,8 +22,8 @@ It also produces visual diagnostics for asset clustering, portfolio composition,
 - Configurable rebalancing frequency
 - Optional inclusion of government bonds
 - Separate transaction-cost assumptions for:
-  - positions entering or leaving the portfolio;
-  - changes to positions already held.
+  - positions entering or leaving the portfolio
+  - changes to positions already held
 - Gross and net-of-cost wealth comparison
 - Portfolio performance and risk metrics
 - Asset-group allocation analysis
