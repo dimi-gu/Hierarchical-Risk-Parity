@@ -164,24 +164,6 @@ Because the split point is identified from weekly row numbers, use optimisation 
 
 ---
 
-## Installation
-
-The notebook was saved with Python 3.13.5.
-
-Install the required packages with:
-
-```bash
-pip install numpy pandas scipy matplotlib seaborn networkx openpyxl PyPortfolioOpt jupyter
-```
-
-Then start Jupyter:
-
-```bash
-jupyter notebook
-```
-
----
-
 ## Usage
 
 1. Clone or download the repository.
