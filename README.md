@@ -72,7 +72,7 @@ $$ \
 \alpha = 1-\frac{\sigma_0^2}{\sigma_0^2+\sigma_1^2}
 \ $$
 
-where \(\sigma_0^2\) and \(\sigma_1^2\) are the inverse-variance portfolio variances of the two clusters.
+where $\(\sigma_0^2\)$ and $\(\sigma_1^2\)$ are the inverse-variance portfolio variances of the two clusters.
 
 ### 3. Benchmark portfolios
 
