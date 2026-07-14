@@ -145,7 +145,7 @@ The main parameters are defined near the beginning of the notebook:
 ```python
 Years_optimization = 3
 rebalance = 8
-Wlt = 100_000
+Wlt = 100000
 c1 = 0.02
 c2 = 0.005
 include_bonds = 0
