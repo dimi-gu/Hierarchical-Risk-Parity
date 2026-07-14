@@ -238,6 +238,12 @@ link = sch.linkage(condensed_dist, method="single")
 
 This change may alter the clustering tree, HRP weights, and backtest results.
 
+The linkage method alone is the key parameter of the HRP portfolio performance as it implicitly determines the re-ordered covariance matrix, the cluster's composition and th inverse-variance allcationa. The different performance is because the HRP's recursive bisection identifies clusters by position and not by the structure of the dendrogram. User can verify this behaviour by seleting, for example, the "ward" linkage.
+
+```python
+sch.linkage(dist, method="ward")
+```
+
 ### Minimum spanning tree
 
 The current minimum spanning tree is built from the correlation matrix. A conventional correlation-network MST is usually built from a distance matrix such as:
