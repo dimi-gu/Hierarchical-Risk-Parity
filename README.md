@@ -56,9 +56,9 @@ The HRP allocation follows three main steps.
 
 The correlation matrix is converted into a distance matrix:
 
-$\[
+$\
 d_{i,j} = \sqrt{\frac{1-\rho_{i,j}}{2}}
-\]$
+\$
 
 Assets are then clustered using single-linkage hierarchical clustering.
 
