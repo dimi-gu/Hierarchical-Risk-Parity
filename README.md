@@ -93,7 +93,7 @@ The cost model distinguishes between two types of turnover:
 
 The initial portfolio allocation is treated as a complete purchase and is charged at `c1`.
 
-At each rebalancing date, costs are approximated from absolute changes in portfolio weights multiplied by current portfolio wealth. Net wealth is calculated by compounding portfolio returns and subtracting the corresponding rebalancing costs.
+At each rebalancing date, costs are approximated from absolute changes in portfolio weights multiplied by current portfolio value. Net value is calculated by compounding portfolio returns and subtracting the corresponding rebalancing costs.
 
 ---
 
@@ -101,7 +101,7 @@ At each rebalancing date, costs are approximated from absolute changes in portfo
 
 Place an Excel file named **`HRP.xlsx`** in the same directory as the notebook.
 
-The workbook must contain two sheets.
+The Excel file contain two sheets.
 
 ### `Returns`
 
@@ -121,13 +121,11 @@ Weekly asset prices:
 | 2015-01-02 | 101.25 | 98.40 | ... |
 | 2015-01-09 | 100.64 | 99.29 | ... |
 
-Requirements:
+File description:
 
-- both sheets must contain a `Dates` column;
-- asset names must be consistent across the two sheets;
-- observations must be chronologically ordered;
-- the data frequency must be weekly;
-- prices and returns must cover compatible periods.
+- both sheets contain a `Dates` column;
+- observations are chronologically ordered;
+- the data frequency is weekly;
 
 The notebook recognises the following bond columns:
 
