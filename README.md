@@ -238,7 +238,7 @@ link = sch.linkage(condensed_dist, method="single")
 
 This change may alter the clustering tree, HRP weights, and backtest results.
 
-The linkage method alone is the key parameter of the HRP portfolio performance as it implicitly determines the re-ordered covariance matrix, the cluster's composition and the inverse-variance allocation. The different performance is due to the HRP's recursive bisection that identifies clusters by position and not by the structure of the dendrogram. User can verify this behaviour by seleting, for example, the "ward" linkage (ceil 11 of the notebook).
+The linkage method alone is the key parameter of the HRP portfolio performance as it implicitly determines the re-ordered covariance matrix, the cluster's composition and the inverse-variance allocation. The different performance is due to the HRP's recursive bisection that identifies clusters by position and not by the structure of the dendrogram. User can verify this behaviour by selecting, for example, the "ward" linkage (ceil 11 of the notebook).
 
 ```python
 sch.linkage(dist, method="ward")
