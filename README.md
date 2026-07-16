@@ -172,15 +172,6 @@ Because the split point is identified from weekly row numbers, use optimisation 
 4. Review the asset groups and user parameters.
 5. Run all cells in order.
 
-Example repository structure:
-
-```text
-.
-├── HRP_Portfolio_Analysis.ipynb
-├── HRP.xlsx
-└── README.md
-```
-
 ---
 
 ## Outputs
