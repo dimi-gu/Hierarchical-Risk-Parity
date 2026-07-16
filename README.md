@@ -2,7 +2,7 @@
 
 A Python/Jupyter implementation of **Hierarchical Risk Parity (HRP)** portfolio with rolling out-of-sample backtesting, transaction-cost modelling, portfolio diagnostics, and comparison against traditional allocation strategies.
 
-The notebook implements the HRP algorithm portfolio introduced by Marcos López de Prado and compares it with:
+The notebook implements the HRP algorithm portfolio introduced by Marcos López de Prado and compares it with following portfolios:
 
 - **1/N** equal weighting
 - **Minimum Global Variance (MGV)**
